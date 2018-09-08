@@ -6,4 +6,4 @@ ps aux | grep "news-reader-0.0.1-SNAPSHOT.jar" | grep -v "grep" | awk '{print $2
 fi
 
 #deploy the microservice
-java -jar news-reader-0.0.1-SNAPSHOT.jar
+java -jar /home/ubuntu/dj-solution/news-reader-0.0.1-SNAPSHOT.jar
